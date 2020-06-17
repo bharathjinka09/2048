@@ -228,10 +228,10 @@ document.addEventListener('DOMContentLoaded', () => {
   
   document.addEventListener('keyup', control);
   
-  document.addEventListener("touchmove", keyRight, false);
-  document.addEventListener("touchmove", keyLeft, false);
-  document.addEventListener("touchmove", keyDown, false);
-  document.addEventListener("touchmove", keyUp, false);
+  document.addEventListener("touchstart", keyRight, false);
+  document.addEventListener("touchstart", keyLeft, false);
+  document.addEventListener("touchstart", keyDown, false);
+  document.addEventListener("touchstart", keyUp, false);
   
   function control(e) {
     if(e.keyCode === 39) {
