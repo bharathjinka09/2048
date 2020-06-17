@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  background: aliceblue;
+}
+
+header {
+  width: 450px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  width: 143px;
+  height: 143px;
+  color: #fff;
+  background-color: #eccc5f;
+  font-size: 44px;
+  border-radius: 10px;
+}
+
+.title > span {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.score-container {
+  background-color: #3d3a33;
+  color: white;
+  width: 103px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#score {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#new-game {
+  background-color: #f75e3e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 143px;
+  height: 40px;
+  font-size: 24px;
+  outline: none;
+  cursor: pointer;
+}
+
+#new-game:hover {
+  background-color: #c42808;
+}
+
+#result {
+  position: absolute;
+  width: 260px;
+  margin: 185px 85px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 36px;
+  text-align: center;
+  opacity: 0;
+  transition: 1s all;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  height: 450px;
+  background-color: #bbada0;
+  padding-top: 10px;
+  margin: 10px;
+}
+
+.grid div {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  background-color: #cdc0b4;
+  border-radius: 5px;
+  font-size: 44px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #786e65;
+}
+
+.two {
+  background-color: #eee4da !important;
+}
+
+.four {
+  background-color: #ede0c8 !important;
+}
+
+.eight {
+  background-color: #f2b179 !important;
+  color: #fff !important;
+}
+
+.sixteen {
+  background-color: #f59563 !important;
+  color: #fff !important;
+}
+
+.thirty-two {
+  background-color: #f57c60 !important;
+  color: #fff !important;
+}
+
+.sixty-four {
+  background-color: #e85b3b !important;
+  color: #fff !important;
+}
+
+.one-twenty-eight {
+  background-color: #f57c60 !important;
+  color: #fff !important;
+}
+
+.two-fifty-six {
+  background-color: #edcc63 !important;
+  color: #fff !important;
+}
+
+.five-twelve {
+  background-color: #ebc850 !important;
+  color: #fff !important;
+}
+
+.ten-twenty-four {
+  background-color: #efcf6c !important;
+  color: #fff !important;
+  font-size: 36px !important;
+}
+
+.twenty-forty-eight {
+  background-color: #edcd5e !important;
+  color: #fff !important;
+  font-size: 36px !important;
+}
